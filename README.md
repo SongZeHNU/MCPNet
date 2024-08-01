@@ -15,12 +15,12 @@ NCOC download link [Google Drive](https://drive.google.com/file/d/1LgToD8QQRJ6Ae
 ## Usage
 ### 1. Download pre-trained ViT model
 Please download model from the official websites: 
-* [github](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window12_384_22k.pth) or [baidu](https://pan.baidu.com/share/init?surl=vwJxnJcVqcLZAw9HaqiR6g) with the fetch code: swin.
-* move it into ``` ./pretrained_ckpt/ ```
+* [github](https://github.com/google-research/vision_transformer).
+* move it into ``` ./ ```
 
 ### 2. Train
 
-To train FSNet with costumed path:
+To train MCPNet with costumed path:
 
 ```bash
 python MyTrain_Val.py --save_path './snapshot/FSNet/'
@@ -33,10 +33,6 @@ To test with trained model:
 python MyTesting.py --pth_path './snapshot/FSNet/Net_epoch_best.pth'
 ```
 
-downloading our weights and move it into `./snapshot/FSNet/`, 
-    which can be found from [Google Drive](https://drive.google.com/file/d/1Bgi8MThe1eEE9fYyaHuLHacO1Cs_e9Ta/view?usp=share_link).
-    
- You can also download prediction maps from [Google Drive](https://drive.google.com/file/d/1kT9l9NrwWCffP4EQ7ITBd834389xY8iV/view?usp=share_link).
 
 
 
