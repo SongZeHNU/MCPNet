@@ -15,7 +15,7 @@ NCOC download link [Google Drive](https://drive.google.com/file/d/1LgToD8QQRJ6Ae
 ## Usage
 ### 1. Download pre-trained ViT model
 Please download model from the official websites: 
-* ViT-B16 [github](https://github.com/google-research/vision_transformer).
+* ViT-B16 [Google Drive](https://storage.googleapis.com/vit_models/imagenet21k%2Bimagenet2012/ViT-B_16.npz).
 * move it into ``` ./ ```
 
 ### 2. Train
