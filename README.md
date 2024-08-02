@@ -18,6 +18,7 @@ Our code is configured by Pytorch 1.9.0, torchvision 0.10.0, Python 3.8.16.
 
 ### 2. Datasets
 ACOC download link [Google Drive](https://drive.google.com/file/d/14dwo37hSMz-gjRPpnLLVo2LVl4_bl95j/view?usp=drive_link). 
+
 NCOC download link [Google Drive](https://drive.google.com/file/d/1LgToD8QQRJ6AelA2VC0dqkIwOlQcXxBw/view?usp=drive_link).
 
 ### 2. Download pre-trained ViT model
