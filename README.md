@@ -21,19 +21,19 @@ ACOC download link [Google Drive](https://drive.google.com/file/d/14dwo37hSMz-gj
 
 NCOC download link [Google Drive](https://drive.google.com/file/d/1LgToD8QQRJ6AelA2VC0dqkIwOlQcXxBw/view?usp=drive_link).
 
-### 2. Download pre-trained ViT model
+### 3. Download pre-trained ViT model
 Please download model from the official websites: 
 * ViT-B16 [Google Drive](https://storage.googleapis.com/vit_models/imagenet21k%2Bimagenet2012/ViT-B_16.npz).
 * move it into ``` ./ ```
 
-### 3. Train
+### 4. Train
 
 To train MCPNet with costumed path:
 
 ```bash
 python train.py --dataset 'acoc' --name mcpnet --gpu 0
 ```
-### 4. Test
+### 5. Test
 
 To test with trained model:
 
