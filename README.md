@@ -10,27 +10,34 @@
 
 Code implementation of "_**Multi-granularity Context Perception Network for Open Set Recognition of Camouflaged Objects**_". 
 
+
+## Usage
+
+### 1. Environments
+Our code is configured by Pytorch 1.9.0, torchvision 0.10.0, Python 3.8.16.
+
+### 2. Datasets
 ACOC download link [Google Drive](https://drive.google.com/file/d/14dwo37hSMz-gjRPpnLLVo2LVl4_bl95j/view?usp=drive_link). 
 NCOC download link [Google Drive](https://drive.google.com/file/d/1LgToD8QQRJ6AelA2VC0dqkIwOlQcXxBw/view?usp=drive_link).
-## Usage
-### 1. Download pre-trained ViT model
+
+### 2. Download pre-trained ViT model
 Please download model from the official websites: 
 * ViT-B16 [Google Drive](https://storage.googleapis.com/vit_models/imagenet21k%2Bimagenet2012/ViT-B_16.npz).
 * move it into ``` ./ ```
 
-### 2. Train
+### 3. Train
 
 To train MCPNet with costumed path:
 
 ```bash
 python MyTrain_Val.py --save_path './snapshot/FSNet/'
 ```
-### 3. Test
+### 4. Test
 
 To test with trained model:
 
 ```bash
-python MyTesting.py --pth_path './snapshot/FSNet/Net_epoch_best.pth'
+python test_my.py --dataset 'ACOC'
 ```
 
 
