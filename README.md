@@ -31,14 +31,14 @@ Please download model from the official websites:
 To train MCPNet with costumed path:
 
 ```bash
-python MyTrain_Val.py --save_path './snapshot/FSNet/'
+python train.py --dataset 'acoc' --name mcpnet --gpu 0
 ```
 ### 4. Test
 
 To test with trained model:
 
 ```bash
-python test_my.py --dataset 'ACOC'
+python test.py --dataset 'acoc' --gpu 0
 ```
 
 
