@@ -51,7 +51,7 @@ parser.add_argument('--max-epoch', type=int, default=200)
 parser.add_argument('--scheduler', type=str, default='cosine_warm_restarts_warmup')
 
 # model
-
+parser.add_argument('--loss', type=str, default='Softmax')
 parser.add_argument('--weight-pl', type=float, default=0.1, help="weight for center loss")
 parser.add_argument('--label_smoothing', type=float, default=0.3, help="Smoothing constant for label smoothing."
                                                                         "No smoothing if None or 0")
